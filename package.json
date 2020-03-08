@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "docker run -d -p 80:80 portfolio",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build && docker build -t portfolio .",
+    "lint": "vue-cli-service lint",
+    "host": "surge dist emobe.uk"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -17,6 +19,7 @@
     "vuex": "^3.1.2"
   },
   "devDependencies": {
+    "@types/node": "^13.7.7",
     "@typescript-eslint/eslint-plugin": "^2.18.0",
     "@typescript-eslint/parser": "^2.18.0",
     "@vue/cli-plugin-babel": "~4.2.0",
