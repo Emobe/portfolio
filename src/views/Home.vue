@@ -36,7 +36,7 @@ export default {
         portfolio: [
           ["Github", "https://github.com/emobe"],
           ["npm", "https://npmjs.com/~emobe"],
-          ["LendTech", "https://crunchbase.com/organization/zikher-inc"]
+          ["LendTech", "https://crunchbase.com/organization/zikher-inc-"]
         ],
         contact: [
           ["Email", "mailto:anthony@emobe.uk"],
@@ -59,10 +59,10 @@ export default {
   a {
     color: black;
     margin: 10px 0;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   position: fixed;
-  width: 25vw;
+  width: 20vw;
   height: 100vh;
   background-color: white;
   right: 0;

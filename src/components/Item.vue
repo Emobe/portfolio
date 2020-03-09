@@ -25,7 +25,7 @@ export default class Item extends Vue {
 <style lang="scss" scoped>
 $padding: 27px;
 h2 {
-  font-size: 9vw;
+  font-size: 8vw;
   color: grey;
   padding-left: $padding;
   margin-bottom: 10px;
@@ -37,7 +37,7 @@ a {
   }
 }
 .item {
-  font-size: 10vw;
+  font-size: 9vw;
   text-transform: uppercase;
   font-weight: bold;
   color: whitesmoke;
